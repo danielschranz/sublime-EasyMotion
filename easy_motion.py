@@ -229,7 +229,7 @@ class UndoLastJumpTargets(sublime_plugin.WindowCommand):
         self.window.run_command("undo")
 
 
-class JumpTo(sublime_plugin.WindowCommand):
+class EasymotionJumpTo(sublime_plugin.WindowCommand):
     def run(self, character=None):
         global COMMAND_MODE_WAS
 
